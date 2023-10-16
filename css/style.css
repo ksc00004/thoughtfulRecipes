@@ -1,0 +1,38 @@
+img{
+    float:left;}
+
+.wrapper{
+    background-image:url("../images/index.background.png");
+    background-image: cover;
+   
+
+    background-image: cover;
+    background-position:top ;
+    width:100%;
+    
+    
+        background-repeat:no-repeat;
+        background-size:100%;
+      
+        background-attachment:scroll;
+       
+        float:left;
+        height: auto;
+
+}
+
+.wrapper-2{
+    background-image:url("/images/wrapper-2.png");
+    background-size: cover  ;
+    height:16px;
+    width: 100%;
+    float: left;
+    
+    
+        background-repeat:no-repeat;
+
+      
+        /* background-attachment:scroll; */
+       
+      
+}
