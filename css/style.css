@@ -21,18 +21,30 @@ img{
 
 }
 
-.wrapper-2{
-    background-image:url("/images/wrapper-2.png");
-    background-size: cover  ;
-    height:16px;
+#nav-deco{
+    overflow:hidden;
+    background-image: url("../images/nav-deco.svg");
     width: 100%;
-    float: left;
-    
-    
-        background-repeat:no-repeat;
+    height:auto;
+    background-size: cover;
 
-      
-        /* background-attachment:scroll; */
-       
-      
+}
+
+#nav-deco p{
+    text-align: center;
+    padding-bottom: 1.25rem;
+    margin-bottom: 0px;
+    padding-top: 0.5rem;
+    font-family: "Barricada Pro";
+    color:#FCF3CE;
+    font-size: 1.25rem;
+}
+
+#nav-deco img{
+background-size:cover;
+}
+
+.navbar{
+    background-color:#FDD0D0;
+    margin-top:20px;
 }

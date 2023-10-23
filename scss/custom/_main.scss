@@ -1,0 +1,80 @@
+main{
+    margin-top:3rem;
+}
+ main input{
+    border:none;
+    opacity:90%;
+    
+ }
+.space-tb{
+    margin-top:2rem;
+
+}
+h2{
+    font-size:1.25rem;
+    text-transform: uppercase;
+}
+p{
+    font-size:.75rem;
+}
+.card{
+    border:none;
+}
+.card-body{
+    padding:0;
+}
+.card h2{
+    text-transform:uppercase;
+}
+h1{
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size:1.25rem;
+
+}
+
+.checked{
+    color:orange;
+}
+h3{
+    color:#9C5407;
+    font-size:.8rem;
+    text-transform:uppercase;
+  
+}
+
+
+
+
+  .circle-list {
+    list-style: none;
+    padding: 0;
+    counter-reset: item;
+  }
+  
+  .circle-list li {
+    margin-left: 30px; /* Adjust the spacing between the marker and text */
+    position: relative;
+    padding-left: 0; /* Remove the default left padding */
+  }
+  
+  .circle-list li::before {
+    content: counter(item);
+    counter-increment: item;
+    display: inline-block;
+    width: 20px; /* Adjust the size of the circle as needed */
+    height: 20px; /* Adjust the size of the circle as needed */
+    background-color: #FDD0D0; /* Set your desired background color */
+    border-radius: 50%; /* Makes the marker circular */
+    text-align: center;
+    line-height: 20px; /* Center the number in the circle */
+    position: absolute;
+    left: -30px; /* Position the marker outside the text */
+    font-weight: bold; /* Style the number */
+  }
+  a {
+    text-decoration: none; /* Remove the underline */
+    color: black; /* Set the link color to black */
+  }
